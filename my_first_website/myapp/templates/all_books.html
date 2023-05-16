@@ -1,0 +1,9 @@
+{% for book in all_books %}
+   <ul>
+       <li>
+           <p>Book Name : {{ book.title }}</p>
+           <p>Published on Date : {{book.pub_date}}</p>
+       </li>
+   </ul>
+
+{% endfor %}
